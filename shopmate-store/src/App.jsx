@@ -1,14 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import ShopmatePage from './ShopmatePage';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-
+      <ShopmatePage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
